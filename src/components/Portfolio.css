@@ -1,3 +1,23 @@
-.portfolio__table--row-starred-project {
-  background-color: goldenrod;
+/* .portfolio__table--row-starred-project {
+  background-color: rgb(243, 211, 130);
+} */
+
+.portfolio__td-project-name {
+
+}
+
+.portfolio__td-project-demo {
+  max-width: 100px;
+  display: flexbox;
+}
+
+.portfolio__td-project-technologies {
+  /* max-width: 20%; */
+  max-width: 200px;
+  display: flexbox;
+}
+
+.portfolio__td-project-notes {
+  max-width: 200px;
+  font-size: x-small;
 }
