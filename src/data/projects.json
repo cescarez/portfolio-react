@@ -4,7 +4,9 @@
     "technologies": ["React.js", "Rails", "Node.js", "JavaScript", "Ruby", "Api-client", "Api-server"],
     "priority": 0,
     "solo": false,
-    "note": "Api server base code was provided by Ada Developer\"s Academy"
+    "note": "Api server base code was provided by Ada Developer\"s Academy",
+    "github": "https://github.com/cescarez/video-store-consumer",
+    "deployment": "https://videostore-react.herokuapp.com/"
   }, 
   {
     "name": "Video Store Api",
@@ -12,7 +14,9 @@
     "priority": 0,
     "solo": false,
     "starred": true,
-    "note": "Example endpoints include GET requests to /videos, /customers, /videos/:id/current, /customers/:id/history, /rentals/overdue, and POST requests to /rentals/check-out, /rentals/check-in, with a `video_id` and `customer_id` sent in the request."
+    "note": "Example endpoints include GET requests to /videos, /customers, /videos/:id/current, /customers/:id/history, /rentals/overdue, and POST requests to /rentals/check-out, /rentals/check-in, with a `video_id` and `customer_id` sent in the request.",
+    "github": "https://github.com/cescarez/video-store-api",
+    "deployment": "https://cbel-sophie-video-store.herokuapp.com/videos"
   }, 
   {
     "name": "Task List",
