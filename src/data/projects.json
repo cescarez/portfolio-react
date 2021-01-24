@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Video Store",
+    "technologies": ["React.js", "Rails", "Node.js", "JavaScript", "Ruby", "Api-client", "Api-server"],
+    "priority": 0,
+    "solo": false,
+    "note": "Api server base code was provided by Ada Developer\"s Academy"
+  }, 
+  {
+    "name": "Video Store Api",
+    "technologies": ["Rails", "Ruby", "Api-client", "Api-server"],
+    "priority": 0,
+    "solo": false,
+    "starred": true,
+    "note": "Example endpoints include GET requests to /videos, /customers, /videos/:id/current, /customers/:id/history, /rentals/overdue, and POST requests to /rentals/check-out, /rentals/check-in, with a `video_id` and `customer_id` sent in the request."
+  }, 
+  {
+    "name": "Task List",
+    "technologies": ["React.js", "JavaScript", "Node.js"],
+    "priority": 0,
+    "solo": true,
+    "github": "https://github.com/cescarez/task-list",
+    "deployment": "https://cbel-task-list.herokuapp.com/"
+  }, 
+  {
+    "name": "Media Ranker",
+    "technologies": ["Rails", "Ruby"],
+    "priority": 0,
+    "solo": true,
+    "note": "CSS was provided by Ada Developer\"s Academy",
+    "github": "https://github.com/cescarez/media-ranker-revisited",
+    "deployment": "https://cbel-media-ranker.herokuapp.com/"
+  },
+  {
+    "name": "Slack CLI",
+    "technologies": ["Ruby", "Api-client"],
+    "priority": 0,
+    "solo": true,
+    "github": "https://github.com/cescarez/slack-cli"
+  },
+  {
+    "name": "Exquisite Corpse",
+    "technologies": ["React.js", "JavaScript", "Node.js"],
+    "priority": 0,
+    "solo": true,
+    "note": "CSS was provided by Ada Developer\"s Academy",
+    "github": "https://github.com/cescarez/exquisite-react",
+    "deployment": "https://cbel-exquisite-react.herokuapp.com/"
+  },
+  {
+    "name": "Tic Tac Toe",
+    "technologies": ["React.js", "JavaScript", "Node.js"],
+    "priority": 0,
+    "solo": false,
+    "note": "CSS was provided by Ada Developer\"s Academy",
+    "github": "https://github.com/cescarez/react-tic-tac-toe",
+    "deployment": "https://cbel-maha-react-tic-tac-toe.herokuapp.com/"
+  }, 
+  {
+    "name": "Rideshare",
+    "technologies": ["Ruby", "Rails"],
+    "priority": 0,
+    "solo": false,
+    "note": "CSS was provided by Ada Developer\"s Academy",
+    "github": "https://github.com/cescarez/ride-share-rails",
+    "deployment": "https://cbel-lina-ride-share-rails.herokuapp.com/"
+  },
+  {
+    "name": "Stellar",
+    "technologies": ["Rails", "Ruby"],
+    "priority": 0,
+    "solo": false,
+    "github": "https://github.com/cescarez/betsy",
+    "deployment": "https://stellar-betsy.herokuapp.com/"
+  }
+]
