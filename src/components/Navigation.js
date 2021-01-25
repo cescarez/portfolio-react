@@ -1,8 +1,9 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown, Form, Button, FormControl } from 'react-bootstrap';
-import logo from '../images/logo.png'
 
-const Navigation = () => {
+import logo from '../images/logo2.png'
+
+const Navigation = ({ baseUrl }) => {
   const navigationBar = () => {
     return (
       <Navbar bg='light' expand='lg'>
@@ -19,26 +20,25 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='mr-auto'>
-            <Nav.Link href='/'>Home</Nav.Link>
-            <Nav.Link href='#link'>Link</Nav.Link>
-            <NavDropdown title='Dropdown' id='basic-nav-dropdown'>
-              <NavDropdown.Item href='#action/3.1'>Action</NavDropdown.Item>
-              <NavDropdown.Item href='#action/3.2'>Another action</NavDropdown.Item>
-              <NavDropdown.Item href='#action/3.3'>Something</NavDropdown.Item>
+            <Nav.Link href={baseUrl}>Home</Nav.Link>
+            <Nav.Link href={`${baseUrl}/portfolio`}>Portfolio</Nav.Link>
+            <NavDropdown title='Contact' id='basic-nav-dropdown'>
+              <NavDropdown.Item href='http://github.com/cescarez' target='_blank' rel='noopener noreferrer'>GitHub</NavDropdown.Item>
+              <NavDropdown.Item href='http://linkedin.com/in/christabelsebastian' target='_blank' rel='noopener noreferrer'>LinkedIn</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href='#action/3.4'>Separated link</NavDropdown.Item>
+              <NavDropdown.Item href='mailto:christabel.e.sebastian@gmail.com' target='_blank' rel='noopener noreferrer'>Email</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Form inline>
+          {/* <Form inline>
             <FormControl type='text' placeholder='Search' className='mr-sm-2' />
             <Button variant='outline-success'>Search</Button>
-          </Form>
+          </Form> */}
         </Navbar.Collapse>
       </Navbar>
     )
   }
   return(
-    <div className='navigation'>
+    <div className='navigation__div'>
       {navigationBar()}
     </div>
   )

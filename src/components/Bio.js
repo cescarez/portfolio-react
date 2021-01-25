@@ -5,7 +5,7 @@ import bioPic from '../images/christabel.png';
 const Bio = () => {
 
   return (
-    <div className='bio'>
+    <div className='bio__div'>
       <h2>Bio</h2>
       <Image src={bioPic} roundedCircle />
     </div>

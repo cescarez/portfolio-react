@@ -7,19 +7,20 @@ import Bio from './components/Bio';
 
 import './App.css';
 
+const BASE_URL='http://localhost:3000'
+
 function App() {
   return (
     <div className="App">
-      < Navigation />
+      < Navigation baseUrl={BASE_URL} />
       <Router>
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/' baseUrl={BASE_URL}>
             < Home />
           </Route>
-          {/* <Route path='/portfolio'>
+          <Route path='/portfolio'>
             < Portfolio />
-          </Route> */}
-          <Route path='/portfolio' component={Portfolio}/>
+          </Route>
           <Route path='/bio'>
             < Bio />
           </Route>
