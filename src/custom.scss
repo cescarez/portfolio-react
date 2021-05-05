@@ -1,9 +1,12 @@
 // Override default variables before the import
 /* make the customizations */
 $theme-colors: (
-    "javascript": teal,
-    "ruby": #94243c,
+    "javascript": #f8df21,
+    "ruby": #e71622,
+    "python": #3671a4,
 );
 
 // Import Bootstrap and its default variables
-@import '~bootstrap/scss/bootstrap.scss';
+@import "~bootswatch/dist/cosmo/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/cosmo/bootswatch";

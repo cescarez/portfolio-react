@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+// import 'bootswatch/dist/cosmo/bootstrap.min.css';
 
 //idea: screenshots of apps/small gifs in a carousel?
 const Home = ({ baseUrl }) => {
@@ -13,8 +14,9 @@ const Home = ({ baseUrl }) => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Pothos <em> - Rover for Plants!</em></h3>
+            <a href="" class="build">App</a>
+            <p>Full stack web app: Javascript/React front end, Python/Flask back end. External APIs: Google Firebase for cloud storage and authentication, Google Maps Geocoding, and USPS Address Verification.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -46,7 +48,7 @@ const Home = ({ baseUrl }) => {
   }
   return(
     <div className='home__div'>
-      <h2>Home</h2>
+      <h2>Hi, I'm Christabel</h2>
       {projectCarousel()}
     </div>
   )

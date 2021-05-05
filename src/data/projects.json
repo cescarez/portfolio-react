@@ -1,16 +1,18 @@
 [
   {
     "name": "Video Store",
-    "technologies": ["React.js", "Rails", "Node.js", "JavaScript", "Ruby", "Api-client", "Api-server"],
+    "technologies": ["React.js", "Rails", "Node.js", "JavaScript", "Ruby"],
+    "stackEnd": "Fullstack",
     "priority": 0,
     "solo": false,
-    "note": "Api server base code was provided by Ada Developer\"s Academy",
+    "note": "Api server base code was provided by Ada Developer's Academy",
     "github": "https://github.com/cescarez/video-store-consumer",
     "deployment": "https://videostore-react.herokuapp.com/"
   }, 
   {
-    "name": "Video Store Api",
-    "technologies": ["Rails", "Ruby", "Api-client", "Api-server"],
+    "name": "Video Store API",
+    "technologies": ["Rails", "Ruby"],
+    "stackEnd": "Backend",
     "priority": 0,
     "solo": false,
     "starred": true,
@@ -22,6 +24,7 @@
     "name": "Task List",
     "technologies": ["React.js", "JavaScript", "Node.js"],
     "priority": 0,
+    "stackEnd": "Frontend",
     "solo": true,
     "github": "https://github.com/cescarez/task-list",
     "deployment": "https://cbel-task-list.herokuapp.com/"
@@ -29,15 +32,17 @@
   {
     "name": "Media Ranker",
     "technologies": ["Rails", "Ruby"],
+    "stackEnd": "Fullstack",
     "priority": 0,
     "solo": true,
-    "note": "CSS was provided by Ada Developer\"s Academy",
+    "note": "CSS was provided by Ada Developer's Academy",
     "github": "https://github.com/cescarez/media-ranker-revisited",
     "deployment": "https://cbel-media-ranker.herokuapp.com/"
   },
   {
     "name": "Slack CLI",
-    "technologies": ["Ruby", "Api-client"],
+    "technologies": ["Ruby"],
+    "stackEnd": "Backend",
     "priority": 0,
     "solo": true,
     "github": "https://github.com/cescarez/slack-cli"
@@ -45,36 +50,51 @@
   {
     "name": "Exquisite Corpse",
     "technologies": ["React.js", "JavaScript", "Node.js"],
+    "stackEnd": "Frontend",
     "priority": 0,
     "solo": true,
-    "note": "CSS was provided by Ada Developer\"s Academy",
+    "note": "CSS was provided by Ada Developer's Academy",
     "github": "https://github.com/cescarez/exquisite-react",
     "deployment": "https://cbel-exquisite-react.herokuapp.com/"
   },
   {
     "name": "Tic Tac Toe",
     "technologies": ["React.js", "JavaScript", "Node.js"],
+    "stackEnd": "Frontend",
     "priority": 0,
     "solo": false,
-    "note": "CSS was provided by Ada Developer\"s Academy",
+    "note": "CSS was provided by Ada Developer's Academy",
     "github": "https://github.com/cescarez/react-tic-tac-toe",
     "deployment": "https://cbel-maha-react-tic-tac-toe.herokuapp.com/"
   }, 
   {
     "name": "Rideshare",
     "technologies": ["Ruby", "Rails"],
+    "stackEnd": "Fullstack",
     "priority": 0,
     "solo": false,
-    "note": "CSS was provided by Ada Developer\"s Academy",
+    "note": "CSS was provided by Ada Developer's Academy",
     "github": "https://github.com/cescarez/ride-share-rails",
     "deployment": "https://cbel-lina-ride-share-rails.herokuapp.com/"
   },
   {
     "name": "Stellar",
     "technologies": ["Rails", "Ruby"],
+    "stackEnd": "Fullstack",
     "priority": 0,
     "solo": false,
     "github": "https://github.com/cescarez/betsy",
     "deployment": "https://stellar-betsy.herokuapp.com/"
+  },
+  {
+    "name": "Pothos",
+    "technologies": ["JavaScript", "React.js", "Node.js", "Python", "Flask"],
+    "stackEnd": "Fullstack",
+    "priority": -1,
+    "starred": true,
+    "solo": false,
+    "github": "https://github.com/cescarez/pothos-react/blob/main/src/images/gifs/sitter-list.gif",
+    "deployment": "https://pothos-webapp.herokuapp.com/",
+    "note": "When first visiting this page, there will be a delay both on first visiting the page and on sending the first request to the back end."
   }
 ]
