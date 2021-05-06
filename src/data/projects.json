@@ -31,7 +31,7 @@
   }, 
   {
     "name": "Media Ranker",
-    "technologies": ["Rails", "Ruby"],
+    "technologies": ["Rails", "Ruby", "OAuth"],
     "stackEnd": "Fullstack",
     "priority": 0,
     "solo": true,
@@ -55,7 +55,8 @@
     "solo": true,
     "note": "CSS was provided by Ada Developer's Academy",
     "github": "https://github.com/cescarez/exquisite-react",
-    "deployment": "https://cbel-exquisite-react.herokuapp.com/"
+    "deployment": "https://cbel-exquisite-react.herokuapp.com/",
+    "image": "exquisite_corpse.png"
   },
   {
     "name": "Tic Tac Toe",
@@ -65,6 +66,7 @@
     "solo": false,
     "note": "CSS was provided by Ada Developer's Academy",
     "github": "https://github.com/cescarez/react-tic-tac-toe",
+    "image": "tic-tac-toe.png",
     "deployment": "https://cbel-maha-react-tic-tac-toe.herokuapp.com/"
   }, 
   {
@@ -75,26 +77,29 @@
     "solo": false,
     "note": "CSS was provided by Ada Developer's Academy",
     "github": "https://github.com/cescarez/ride-share-rails",
+    "image": "rideshare.png",
     "deployment": "https://cbel-lina-ride-share-rails.herokuapp.com/"
   },
   {
     "name": "Stellar",
-    "technologies": ["Rails", "Ruby"],
+    "technologies": ["Rails", "Ruby", "OAuth"],
     "stackEnd": "Fullstack",
     "priority": 0,
     "solo": false,
     "github": "https://github.com/cescarez/betsy",
+    "image": "stellar.png",
     "deployment": "https://stellar-betsy.herokuapp.com/"
   },
   {
     "name": "Pothos",
-    "technologies": ["JavaScript", "React.js", "Node.js", "Python", "Flask"],
+    "technologies": ["JavaScript", "React.js", "Node.js", "Python", "Flask", "Google Firebase", "Google Maps API"],
     "stackEnd": "Fullstack",
     "priority": -1,
     "starred": true,
     "solo": false,
     "github": "https://github.com/cescarez/pothos-react/blob/main/src/images/gifs/sitter-list.gif",
+    "image": "pothos_sitter-list.gif",
     "deployment": "https://pothos-webapp.herokuapp.com/",
-    "note": "When first visiting this page, there will be a delay both on first visiting the page and on sending the first request to the back end."
+    "note": "When first visiting this page, there will be a delay both on first visiting the page and on sending the first request to the back end. See video demo of app here: https://bit.ly/pothos_demo"
   }
 ]

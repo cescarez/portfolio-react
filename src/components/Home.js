@@ -1,16 +1,19 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-// import 'bootswatch/dist/cosmo/bootstrap.min.css';
+import 'bootswatch/dist/cosmo/bootstrap.min.css';
+import christabelPic from '../images/christabel.jpg';
+import christabelPic2 from '../images/christabel.png';
 
 //idea: screenshots of apps/small gifs in a carousel?
 const Home = ({ baseUrl }) => {
+
   const projectCarousel = () => {
     return (
-      <Carousel>
+      <Carousel pause='hover'>
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            src={baseUrl + '/src/images/christabel.png'}
+            className="center d-block w-50"
+            src={christabelPic}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -21,8 +24,9 @@ const Home = ({ baseUrl }) => {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="d-block w-50"
             src="holder.js/800x400?text=Second slide&bg=282c34"
+            src={christabelPic2}
             alt="Third slide"
           />
 

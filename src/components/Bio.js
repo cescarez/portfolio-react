@@ -6,7 +6,7 @@ const Bio = () => {
 
   return (
     <div className='bio__div'>
-      <h2>Bio</h2>
+      <h2>Hi, I'm Christabel</h2>
       <Image src={bioPic} roundedCircle />
     </div>
   )

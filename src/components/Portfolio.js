@@ -40,7 +40,7 @@ const Portfolio = () => {
 
   const displayProjects = () => {
     return (
-      < Table striped hover size="sm">
+      < Table hover size="sm">
         <thead>
           <tr>
             <th>Project Name/Repo</th>
@@ -83,7 +83,7 @@ const Portfolio = () => {
   const techStackFilter = () => {
 
     return (
-      <DropdownButton id="dropdown-basic-button" title={selectionFilter} onSelect={handleSelectFilter}>
+      <DropdownButton title={selectionFilter} onSelect={handleSelectFilter} size="sm">
         <Dropdown.Item eventKey="All">All</Dropdown.Item>
         <Dropdown.Item eventKey="Backend">Backend</Dropdown.Item>
         <Dropdown.Item eventKey="Frontend">Frontend</Dropdown.Item>
