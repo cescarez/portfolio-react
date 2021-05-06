@@ -5,7 +5,7 @@
     "stackEnd": "Fullstack",
     "priority": 0,
     "solo": false,
-    "note": "Api server base code was provided by Ada Developer's Academy",
+    "note": "Api starter code was provided by Ada Developer's Academy",
     "github": "https://github.com/cescarez/video-store-consumer",
     "image": "video_store.png",
     "deployment": "https://videostore-react.herokuapp.com/"
@@ -100,7 +100,7 @@
     "priority": -1,
     "starred": true,
     "solo": false,
-    "github": "https://github.com/cescarez/pothos-react/blob/main/src/images/gifs/sitter-list.gif",
+    "github": "https://github.com/cescarez/pothos-react/",
     "image": "pothos_sitter-list.gif",
     "deployment": "https://pothos-webapp.herokuapp.com/",
     "note": "When first visiting this page, there will be a delay both on first visiting the page and on sending the first request to the back end. See video demo of app here: https://bit.ly/pothos_demo"
