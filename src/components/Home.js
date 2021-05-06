@@ -5,7 +5,7 @@ import christabelPic from '../images/christabel.jpg';
 import christabelPic2 from '../images/christabel.png';
 
 //idea: screenshots of apps/small gifs in a carousel?
-const Home = ({ baseUrl }) => {
+const Home = ({ }) => {
 
   const projectCarousel = () => {
     return (

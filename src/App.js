@@ -13,9 +13,9 @@ function App() {
   return (
     <div className="App">
       < Navigation baseUrl={BASE_URL} />
-      <Router>
+      <Router basename={`/${process.env.PUBLIC_URL}`}>
         <Switch>
-          <Route exact path='/' baseUrl={BASE_URL}>
+          <Route exact path='/'>
             < Home />
           </Route>
           <Route path='/portfolio'>
