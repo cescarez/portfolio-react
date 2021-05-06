@@ -1,5 +1,5 @@
 # Christabel Sebastian 
-#####   [christabel.e.sebastian@gmail.com](mailto:christabel.e.sebastian@gmail.com)  |  (206) 701-4934  | Portland, OR |  [bit.ly/christabels_linkedin](https://linkedin.com/in/christabelsebastian) | [bit.ly/christabels_github](https://github.com/cescarez)
+#####   [christabel.e.sebastian@gmail.com](mailto:christabel.e.sebastian@gmail.com)  |  Portland, OR |  [bit.ly/christabels_linkedin](https://linkedin.com/in/christabelsebastian) | [bit.ly/christabels_github](https://github.com/cescarez)
 
 ## Technical Skills
 Ruby, Rails, JavaScript/ES6, Node.js, React.js, Java, Spring, Git, Unit Testing, Integration Testing, REST APIs, OOP, TDD Principles, Agile/SCRUM Practices, Effective and Empathetic Communication, Growth Mindset
