@@ -7,6 +7,7 @@
     "solo": false,
     "note": "Api server base code was provided by Ada Developer's Academy",
     "github": "https://github.com/cescarez/video-store-consumer",
+    "image": "video_store.png",
     "deployment": "https://videostore-react.herokuapp.com/"
   }, 
   {
@@ -27,6 +28,7 @@
     "stackEnd": "Frontend",
     "solo": true,
     "github": "https://github.com/cescarez/task-list",
+    "image": "task_list.png",
     "deployment": "https://cbel-task-list.herokuapp.com/"
   }, 
   {
@@ -37,6 +39,7 @@
     "solo": true,
     "note": "CSS was provided by Ada Developer's Academy",
     "github": "https://github.com/cescarez/media-ranker-revisited",
+    "image": "media_ranker.png",
     "deployment": "https://cbel-media-ranker.herokuapp.com/"
   },
   {
