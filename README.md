@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Christabel Sebastian 
+#####   [christabel.e.sebastian@gmail.com](mailto:christabel.e.sebastian@gmail.com)  |  (206) 701-4934  | Portland, OR |  [bit.ly/christabels_linkedin](https://linkedin.com/in/christabelsebastian) | [bit.ly/christabels_github](https://github.com/cescarez)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technical Skills
+Ruby, Rails, JavaScript/ES6, Node.js, React.js, Java, Spring, Git, Unit Testing, Integration Testing, REST APIs, OOP, TDD Principles, Agile/SCRUM Practices, Effective and Empathetic Communication, Growth Mindset
 
-## Available Scripts
+## Work Experience
+#### _Software Engineering Intern_ | Salesforce
+##### Remote | Mar 2021 - July 2021
+- Java development and testing on B2B Checkout Backend - Performance and Scalability team
+- Work on stories related to quality control, logging, and dashboarding
+- Adhere to Agile principles and effectively communicate while on a distributed team across multiple timezones
+- Submit code changes and perform code reviews with tools such as Perforce and CodeCollab
+#### _Laboratory Manager_ | SC Laboratories 
+###### Tigard, OR | Jun 2018 - Jul 2020
+- Managed all analytical staff and operations.
+- Performed sample analysis and data review for pesticide, trace solvent, terpene, and cannabinoid content. 
+- Optimized, updated, and published standard operating procedures.
+- Refined Quality System through improved implementation of laboratory information management software and automations.
+- Started as a chemist and promoted to laboratory manager after 2 years.
+#### _Chemist_ | Brooks Applied Labs 
+###### Bothell, WA | Aug 2011 - May 2015, Oct 2016 - Jun 2018
+- Analyzed samples, maintained and repaired instrumentation, reviewed and reported data for trace metal content.
+- Operated in roles that ranged from technician to chemist to team lead, promoted every 1-2 years. 
+#### _Project Manager_ | TestAmerica Laboratories
+###### Fife, WA | May 2015 - Oct 2016
+- Client-facing project management. Reported laboratory data, initiated and maintained project scope, ensured data met requisite regulatory and quality control criteria. Promoted after 1 year.
 
-In the project directory, you can run:
+## Projects
+### Pothos: Plant-Sitting Web App
+[bit.ly/pothos_repo](https://github.com/cescarez/pothos-react/) | [bit.ly/pothos_app](https://pothos-webapp.herokuapp.com/)  
+Full stack web app: JavaScript/React front end, Python/Flask back end. External APIs: Google Firebase for cloud storage, authentication, and authorization, Google Maps Geocoding, and USPS Address Verification.
+### Hollywood: Video Store
+[bit.ly/video-store_repo](https://github.com/cescarez/video-store-consumer) | [bit.ly/video-store_app](https://videostore-react.herokuapp.com/)  
+Full stack web app: JavaScript/React front end, Ruby/Rails back end.
+### Stellar: Online Store
+[bit.ly/stellar_repo](https://github.com/cescarez/betsy) | [bit.ly/stellar_app](https://stellar-betsy.herokuapp.com/)  
+Full stack web app with Ruby/Rails. Github OAuth for authentication.
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Education
+Ada Developer's Academy: Full Stack Web Development, Data Structures and Algorithms  
+Portland Community College: CS Coursework  
+Epicodus: Intro to Programming course  
+Lewis & Clark College: B.A. Biology  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Community Engagement
+Community Organizer, BAYAN Pacific Northwest. 2016-2018  
+Keynote, Dyke March: Seattle, WA. 2017  
+Panelist and Mock Interviewer, Highline School District STEM Fest: Des Moines, WA. 2017  
+Youth Mentor, The Service Board: Seattle, WA. 2014-2017  
+Youth Outdoor Trip Leader, Seattle ICO: Seattle, WA. 2012-2014  
+____________________
+:wave: Thank you for your consideration! 
