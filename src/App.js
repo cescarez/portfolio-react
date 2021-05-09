@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Navigation />
+      <Navigation basename={process.env.PUBLIC_URL} />
       <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path='/'>

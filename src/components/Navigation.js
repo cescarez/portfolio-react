@@ -7,7 +7,7 @@ const Navigation = () => {
   const navigationBar = () => {
     return (
       <Navbar bg='light' expand='lg'>
-        <Navbar.Brand href='/'>
+        <Navbar.Brand href='#/'>
           <img
             alt=''
             src={logo}
@@ -20,7 +20,7 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='mr-auto'>
-            <Nav.Link href='/'>Home</Nav.Link>
+            <Nav.Link href='#/'>Home</Nav.Link>
             <Nav.Link href='#/portfolio'>Portfolio</Nav.Link>
             <NavDropdown title='Contact' id='basic-nav-dropdown'>
               <NavDropdown.Item href='http://github.com/cescarez' target='_blank' rel='noopener noreferrer'>GitHub</NavDropdown.Item>
