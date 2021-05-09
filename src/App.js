@@ -1,5 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
@@ -7,13 +6,11 @@ import Bio from './components/Bio';
 
 import './App.css';
 
-const BASE_URL='http://localhost:3000'
-
 function App() {
   return (
     <div className="App">
-      < Navigation baseUrl={BASE_URL} />
-      <Router basename={`/${process.env.PUBLIC_URL}`}>
+      <Navigation />
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path='/'>
             < Home />

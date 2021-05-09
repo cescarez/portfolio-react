@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown, Form, Button, FormControl } from 'react-boots
 
 import logo from '../images/logo2.png'
 
-const Navigation = ({ baseUrl }) => {
+const Navigation = () => {
   const navigationBar = () => {
     return (
       <Navbar bg='light' expand='lg'>
@@ -20,8 +20,8 @@ const Navigation = ({ baseUrl }) => {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='mr-auto'>
-            <Nav.Link href={baseUrl}>Home</Nav.Link>
-            <Nav.Link href={`${baseUrl}/portfolio`}>Portfolio</Nav.Link>
+            <Nav.Link href='/'>Home</Nav.Link>
+            <Nav.Link href='#/portfolio'>Portfolio</Nav.Link>
             <NavDropdown title='Contact' id='basic-nav-dropdown'>
               <NavDropdown.Item href='http://github.com/cescarez' target='_blank' rel='noopener noreferrer'>GitHub</NavDropdown.Item>
               <NavDropdown.Item href='http://linkedin.com/in/christabelsebastian' target='_blank' rel='noopener noreferrer'>LinkedIn</NavDropdown.Item>
