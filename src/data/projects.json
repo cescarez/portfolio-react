@@ -1,9 +1,31 @@
 [
   {
+    "name": "Pothos",
+    "technologies": ["JavaScript", "React.js", "Node.js", "Python", "Flask", "Google Firebase", "Google Maps API"],
+    "stackEnd": "Fullstack",
+    "priority": 1,
+    "starred": true,
+    "solo": false,
+    "github": "https://github.com/cescarez/pothos-react/",
+    "image": "pothos.png",
+    "deployment": "https://pothos-webapp.herokuapp.com/",
+    "note": "When first visiting this page, there will be a delay both on first visiting the page and on sending the first request to the back end. See video demo of app here: https://bit.ly/pothos_demo"
+  },
+  {
+    "name": "Stellar",
+    "technologies": ["Rails", "Ruby", "OAuth"],
+    "stackEnd": "Fullstack",
+    "priority": 2,
+    "solo": false,
+    "github": "https://github.com/cescarez/betsy",
+    "image": "stellar.png",
+    "deployment": "https://stellar-betsy.herokuapp.com/"
+  },
+  {
     "name": "Video Store",
     "technologies": ["React.js", "Rails", "Node.js", "JavaScript", "Ruby"],
     "stackEnd": "Fullstack",
-    "priority": 0,
+    "priority": 3,
     "solo": false,
     "note": "Api starter code was provided by Ada Developer's Academy",
     "github": "https://github.com/cescarez/video-store-consumer",
@@ -14,7 +36,7 @@
     "name": "Video Store API",
     "technologies": ["Rails", "Ruby"],
     "stackEnd": "Backend",
-    "priority": 0,
+    "priority": 4,
     "solo": false,
     "starred": true,
     "note": "Example endpoints include GET requests to /videos, /customers, /videos/:id/current, /customers/:id/history, /rentals/overdue, and POST requests to /rentals/check-out, /rentals/check-in, with a `video_id` and `customer_id` sent in the request.",
@@ -22,20 +44,10 @@
     "deployment": "https://cbel-sophie-video-store.herokuapp.com/videos"
   }, 
   {
-    "name": "Task List",
-    "technologies": ["React.js", "JavaScript", "Node.js"],
-    "priority": 0,
-    "stackEnd": "Frontend",
-    "solo": true,
-    "github": "https://github.com/cescarez/task-list",
-    "image": "task_list.png",
-    "deployment": "https://cbel-task-list.herokuapp.com/"
-  }, 
-  {
     "name": "Media Ranker",
     "technologies": ["Rails", "Ruby", "OAuth"],
     "stackEnd": "Fullstack",
-    "priority": 0,
+    "priority": 5,
     "solo": true,
     "note": "CSS was provided by Ada Developer's Academy",
     "github": "https://github.com/cescarez/media-ranker-revisited",
@@ -43,29 +55,10 @@
     "deployment": "https://cbel-media-ranker.herokuapp.com/"
   },
   {
-    "name": "Slack CLI",
-    "technologies": ["Ruby"],
-    "stackEnd": "Backend",
-    "priority": 0,
-    "solo": true,
-    "github": "https://github.com/cescarez/slack-cli"
-  },
-  {
-    "name": "Exquisite Corpse",
-    "technologies": ["React.js", "JavaScript", "Node.js"],
-    "stackEnd": "Frontend",
-    "priority": 0,
-    "solo": true,
-    "note": "CSS was provided by Ada Developer's Academy",
-    "github": "https://github.com/cescarez/exquisite-react",
-    "deployment": "https://cbel-exquisite-react.herokuapp.com/",
-    "image": "exquisite_corpse.png"
-  },
-  {
     "name": "Tic Tac Toe",
     "technologies": ["React.js", "JavaScript", "Node.js"],
     "stackEnd": "Frontend",
-    "priority": 0,
+    "priority": 6,
     "solo": false,
     "note": "CSS was provided by Ada Developer's Academy",
     "github": "https://github.com/cescarez/react-tic-tac-toe",
@@ -73,10 +66,21 @@
     "deployment": "https://cbel-maha-react-tic-tac-toe.herokuapp.com/"
   }, 
   {
+    "name": "Exquisite Corpse",
+    "technologies": ["React.js", "JavaScript", "Node.js"],
+    "stackEnd": "Frontend",
+    "priority": 7,
+    "solo": true,
+    "note": "CSS was provided by Ada Developer's Academy",
+    "github": "https://github.com/cescarez/exquisite-react",
+    "deployment": "https://cbel-exquisite-react.herokuapp.com/",
+    "image": "exquisite_corpse.png"
+  },
+  {
     "name": "Rideshare",
     "technologies": ["Ruby", "Rails"],
     "stackEnd": "Fullstack",
-    "priority": 0,
+    "priority": 8,
     "solo": false,
     "note": "CSS was provided by Ada Developer's Academy",
     "github": "https://github.com/cescarez/ride-share-rails",
@@ -84,25 +88,21 @@
     "deployment": "https://cbel-lina-ride-share-rails.herokuapp.com/"
   },
   {
-    "name": "Stellar",
-    "technologies": ["Rails", "Ruby", "OAuth"],
-    "stackEnd": "Fullstack",
-    "priority": 0,
-    "solo": false,
-    "github": "https://github.com/cescarez/betsy",
-    "image": "stellar.png",
-    "deployment": "https://stellar-betsy.herokuapp.com/"
-  },
+    "name": "Task List",
+    "technologies": ["React.js", "JavaScript", "Node.js"],
+    "priority": 9,
+    "stackEnd": "Frontend",
+    "solo": true,
+    "github": "https://github.com/cescarez/task-list",
+    "image": "task_list.png",
+    "deployment": "https://cbel-task-list.herokuapp.com/"
+  }, 
   {
-    "name": "Pothos",
-    "technologies": ["JavaScript", "React.js", "Node.js", "Python", "Flask", "Google Firebase", "Google Maps API"],
-    "stackEnd": "Fullstack",
-    "priority": -1,
-    "starred": true,
-    "solo": false,
-    "github": "https://github.com/cescarez/pothos-react/",
-    "image": "pothos_sitter-list.gif",
-    "deployment": "https://pothos-webapp.herokuapp.com/",
-    "note": "When first visiting this page, there will be a delay both on first visiting the page and on sending the first request to the back end. See video demo of app here: https://bit.ly/pothos_demo"
+    "name": "Slack CLI",
+    "technologies": ["Ruby"],
+    "stackEnd": "Backend",
+    "priority": 10,
+    "solo": true,
+    "github": "https://github.com/cescarez/slack-cli"
   }
 ]
