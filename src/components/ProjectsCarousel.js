@@ -13,7 +13,6 @@ import taskList from '../images/projects/task_list.png';
 
 import './ProjectsCarousel.css';
 
-//idea: visualize technologies for each project as a bootstrap badge OR: as a carousel with images and videos?
 const ProjectsCarousel = ({projects, displayTechnologies, selectionFilter}) => {
     const projectImages =  {
         "Pothos": pothos,
@@ -32,7 +31,7 @@ const ProjectsCarousel = ({projects, displayTechnologies, selectionFilter}) => {
                     return (
                         (selectionFilter === "Show All" || project.stackEnd === selectionFilter) && project.image && 
                         <Carousel.Item key={project.name}>
-                            <Image className="d-block w-100 mx-auto"
+                            <Image className="d-block mw-70 h-80% mx-auto"
                                 src={projectImages[project.name]}
                                 alt={project.name} />
                             <Carousel.Caption>
@@ -54,7 +53,7 @@ const ProjectsCarousel = ({projects, displayTechnologies, selectionFilter}) => {
 
     return (
         <div>
-            {displayProjectsCarousel()}
+            {selectionFilter == 'Backend' ? <p>Click on <em>"Show Projects Table"</em> above for more information on my backend project history!</p> : displayProjectsCarousel()}
         </div>
     )
 }

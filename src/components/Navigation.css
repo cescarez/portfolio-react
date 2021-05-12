@@ -1,0 +1,8 @@
+#navbar a {
+    color: #9ed8fd;
+}
+
+
+#navbar a:hover {
+    color: #f8f9fa;
+}

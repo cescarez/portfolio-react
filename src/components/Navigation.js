@@ -2,10 +2,12 @@ import React from 'react';
 import { Navbar, Nav, NavDropdown, Form, Button, FormControl } from 'react-bootstrap';
 import logo from '../images/logo2.png';
 
+import './Navigation.css';
+
 const Navigation = () => {
     const navigationBar = () => {
         return (
-            <Navbar bg='primary' expand='lg'>
+            <Navbar bg='primary' expand='lg' id="navbar">
                 <Navbar.Brand href='#/'>
                     <img
                         alt=''

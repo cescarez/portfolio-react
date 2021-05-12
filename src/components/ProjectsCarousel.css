@@ -1,3 +1,11 @@
-p, h3, span {
-    color: black;
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.carousel-caption {
+    background: #008cba;
+}
+
+.carousel-caption a {
+    color: white;
 }
