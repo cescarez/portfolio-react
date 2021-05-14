@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.f44618b9.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.8e3fbb29.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.8e3fbb29.chunk.js.map",
+    "main.js": "/portfolio-react/static/js/main.c2d33386.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.c2d33386.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.216da874.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.216da874.js.map",
     "static/css/2.9a58b7f1.chunk.css": "/portfolio-react/static/css/2.9a58b7f1.chunk.css",
@@ -20,7 +20,7 @@
     "static/media/logo2.62262701.png": "/portfolio-react/static/media/logo2.62262701.png",
     "static/media/media_ranker.6a2568aa.png": "/portfolio-react/static/media/media_ranker.6a2568aa.png",
     "static/media/pothos.aebdd073.png": "/portfolio-react/static/media/pothos.aebdd073.png",
-    "static/media/resume.9825049b.pdf": "/portfolio-react/static/media/resume.9825049b.pdf",
+    "static/media/resume.9225643a.pdf": "/portfolio-react/static/media/resume.9225643a.pdf",
     "static/media/rideshare.70684e4c.png": "/portfolio-react/static/media/rideshare.70684e4c.png",
     "static/media/stellar.a9e80468.png": "/portfolio-react/static/media/stellar.a9e80468.png",
     "static/media/task_list.b11bbdb4.png": "/portfolio-react/static/media/task_list.b11bbdb4.png",
@@ -32,6 +32,6 @@
     "static/css/2.9a58b7f1.chunk.css",
     "static/js/2.c2503efc.chunk.js",
     "static/css/main.f44618b9.chunk.css",
-    "static/js/main.8e3fbb29.chunk.js"
+    "static/js/main.c2d33386.chunk.js"
   ]
 }
